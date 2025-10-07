@@ -20,6 +20,9 @@ To write and execute an Assembly Language Program for sorting data in Ascending 
 ---
 
 ## Program (Ascending order)
+
+```asm
+
 ORG 0000H
 LOOP1:MOV R0,#40H
 MOV R6,30H
@@ -37,9 +40,6 @@ DOWN:DJNZ R6,LOOP
 MOV R1,#02H
 DJNZ R1,LOOP1
 END
-```asm
-
-
 
 
 ```
@@ -63,6 +63,8 @@ END
    - If **Yes**, stop the program.  
 ---
 ## Program (Descending order)
+
+```asm
 ORG 0000H
 LOOP1:MOV R0,#40H
 MOV R6,30H
@@ -80,8 +82,6 @@ DOWN:DJNZ R6,LOOP
 MOV R1,#02H
 DJNZ R1,LOOP1
 END
-```asm
-
 
 
 
